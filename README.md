@@ -1,10 +1,10 @@
 # XAI-Project
 A comprehensive project focusing on Explainable AI (XAI) techniques applied to a medical classification problem, aiming to balance predictive performance and interpretability in healthcare applications.
 
-🚀 Project Overview
+ Project Overview:
 This project implements and evaluates a diverse set of classification models and integrates multiple XAI techniques to analyze clinical data for improved transparency and decision support.
 
-🛠️ Models Implemented
+ Models Implemented:
 We compared the performance of 9 different classification algorithms:
 
 Random Forest
@@ -25,7 +25,7 @@ K-Nearest Neighbors (KNN)
 
 Naïve Bayes
 
-🧠 Explainability Techniques
+Explainability Techniques:
 To enhance model transparency and interpretability, the following XAI methods were employed:
 
 SHAP (SHapley Additive exPlanations)
@@ -36,7 +36,7 @@ Partial Dependence Plots (PDP)
 
 Individual Conditional Expectation (ICE) plots
 
-🔍 Key Insights
+Key Insights:
 Feature Importance Analysis highlighted:
 
 ST-slope
@@ -55,5 +55,6 @@ Friedman H-statistic
 Leave-One-Feature-Out (LOFO)
 to reveal non-linear interactions among clinical features.
 
-🏥 Clinical Impact
+Clinical Impact:
+
 The project proposes a methodology that balances high model accuracy with interpretability, offering practical insights for real-world healthcare decision-making.
