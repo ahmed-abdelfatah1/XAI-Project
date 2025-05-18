@@ -1,4 +1,4 @@
-**Project Overview: Explainable AI (XAI) in Medical Classification**
+# Explainable AI (XAI) in Medical Classification
 
 This comprehensive project focuses on the application of Explainable AI (XAI) techniques to address a medical classification problem. The goal is to achieve a balance between predictive performance and interpretability in healthcare applications.
 
