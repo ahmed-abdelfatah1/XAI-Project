@@ -1,53 +1,48 @@
-# XAI-Project
-A comprehensive project focusing on Explainable AI (XAI) techniques applied to a medical classification problem, aiming to balance predictive performance and interpretability in healthcare applications.
+**Project Overview: Explainable AI (XAI) in Medical Classification**
 
- Project Overview:
-This project implements and evaluates a diverse set of classification models and integrates multiple XAI techniques to analyze clinical data for improved transparency and decision support.
+This comprehensive project focuses on the application of Explainable AI (XAI) techniques to address a medical classification problem. The goal is to achieve a balance between predictive performance and interpretability in healthcare applications.
 
- Models Implemented:
-We compared the performance of 9 different classification algorithms:
+### Project Overview
+The project implements and evaluates a diverse set of classification models, integrating multiple XAI techniques to analyze clinical data. This approach aims to improve transparency and provide better decision support in the healthcare field.
 
-Random Forest
+### Models Implemented
+We compared the performance of nine different classification algorithms:
 
-XGBoost
+1. Random Forest
+2. XGBoost
+3. Multi-layer Perceptron (MLP)
+4. Decision Tree
+5. CatBoost
+6. Support Vector Classifier (SVC)
+7. Logistic Regression
+8. K-Nearest Neighbors (KNN)
+9. Naïve Bayes
 
-Multi-layer Perceptron (MLP)
+### Explainability Techniques
+To enhance model transparency and interpretability, we employed the following XAI methods:
 
-Decision Tree
+- SHAP (SHapley Additive exPlanations)
+- LIME (Local Interpretable Model-agnostic Explanations)
+- Partial Dependence Plots (PDP)
+- Individual Conditional Expectation (ICE) plots
 
-CatBoost
+### Key Insights
 
-Support Vector Classifier (SVC)
+#### Feature Importance Analysis
+We identified the following factors as the most influential predictors:
 
-Logistic Regression
+- ST slope
+- Chest pain type
+- Cholesterol levels
+- Age
 
-K-Nearest Neighbors (KNN)
+#### Interaction Analysis
+This analysis was performed using:
 
-Naïve Bayes
+- Friedman H-statistic
+- Leave-One-Feature-Out (LOFO)
 
-Explainability Techniques:
-To enhance model transparency and interpretability, the following XAI methods were employed:
+The results revealed non-linear interactions among critical clinical features.
 
-SHAP (SHapley Additive exPlanations)
-
-LIME (Local Interpretable Model-agnostic Explanations)
-
-Partial Dependence Plots (PDP)
-
-Individual Conditional Expectation (ICE) plots
-
-Key Insights:
-Feature Importance Analysis highlighted:
-
-ST slope, Chest pain type, Cholesterol, and Age are the most influential predictors.
-
-Interaction Analysis was performed using:
-
-Friedman H-statistic
-
-Leave-One-Feature-Out (LOFO)
-to reveal non-linear interactions among clinical features.
-
-Clinical Impact:
-
-The project proposes a methodology that balances high model accuracy with interpretability, offering practical insights for real-world healthcare decision-making.
+### Clinical Impact
+This project establishes a methodology that balances high model accuracy with interpretability, providing practical and explainable insights to support real-world healthcare decision-making.
