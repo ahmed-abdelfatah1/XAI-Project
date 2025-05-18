@@ -39,14 +39,7 @@ Individual Conditional Expectation (ICE) plots
 Key Insights:
 Feature Importance Analysis highlighted:
 
-ST-slope
-
-Chest pain type
-
-Cholesterol
-
-Age
-as the most influential predictors.
+ST slope, Chest pain type, Cholesterol, and Age are the most influential predictors.
 
 Interaction Analysis was performed using:
 
